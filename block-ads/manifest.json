@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "tyblock",
+  "description": "Fecha anuncios do youtube.",
+  "version": "1.1",
+  "icons": { "128": "icon128.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "css": ["estilo.css"],
+      "js": ["script.js"]
+    }
+  ]
+}
